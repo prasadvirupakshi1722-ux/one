@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ammu ❤</title>
+<title>Ammu &#10084;</title>
 <style>
   :root{
     --ink:#3a1f2b;
@@ -29,7 +29,6 @@
     position:relative;
   }
 
-  /* floating background roses */
   .rose-field{
     position:fixed;
     inset:0;
@@ -68,92 +67,3 @@
   .eyebrow{
     letter-spacing:0.2em;
     text-transform:uppercase;
-    font-size:0.7rem;
-    color:var(--rose);
-    font-family:Georgia, serif;
-    margin-bottom:0.4rem;
-  }
-
-  h1{
-    font-size:2.2rem;
-    margin:0 0 0.3rem;
-    color:var(--rose-deep);
-    font-style:italic;
-  }
-
-  .question{
-    font-size:1.05rem;
-    line-height:1.5;
-    margin:1.4rem 0 1.8rem;
-    color:var(--ink);
-  }
-
-  .stars{
-    display:flex;
-    justify-content:center;
-    gap:0.6rem;
-    margin-bottom:1.6rem;
-  }
-
-  .star-btn{
-    border:none;
-    background:var(--cream);
-    border:2px solid var(--rose);
-    color:var(--rose-deep);
-    width:52px;
-    height:52px;
-    border-radius:50%;
-    font-size:1.2rem;
-    font-weight:bold;
-    cursor:pointer;
-    transition:transform .2s ease, background .2s ease, color .2s ease;
-    font-family:Georgia, serif;
-  }
-  .star-btn:hover{
-    background:var(--rose);
-    color:#fff;
-    transform:translateY(-4px) scale(1.08);
-  }
-  .star-btn:active{transform:scale(0.95);}
-  .star-btn.chosen{
-    background:var(--rose-deep);
-    color:#fff;
-    border-color:var(--rose-deep);
-  }
-
-  .response{
-    min-height:90px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    padding:0.4rem 0.6rem;
-  }
-
-  .response p{
-    font-size:1.15rem;
-    font-style:italic;
-    color:var(--rose-deep);
-    margin:0;
-    animation:pop .5s ease;
-  }
-
-  @keyframes pop{
-    0%{opacity:0; transform:scale(0.85) translateY(6px);}
-    100%{opacity:1; transform:scale(1) translateY(0);}
-  }
-
-  .placeholder{
-    color:#b98a95;
-    font-size:0.95rem;
-    font-style:normal;
-  }
-
-  .signature{
-    margin-top:1.6rem;
-    font-size:0.8rem;
-    letter-spacing:0.05em;
-    color:var(--gold);
-  }
-
-  /* intro screen */
-  .screen{
